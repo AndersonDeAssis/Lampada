@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-color: rgb(7, 101, 120);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#principal{
+    color: white;
+    padding: 20px 20px;
+}
+
+picture{
+    display: flex;
+    justify-content: center;
+}
+
+#lampada{
+    margin: 30px auto;
+    height: 400px;
+    width: 250px;
+    cursor: pointer;
+    background-image: url(imagens/lampada-apagada.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#interruptor{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+#acenda, #apaga{
+    color: #07786b;
+    padding: 10px 40px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+    font-size: 1.2em;
+}
+
+#acenda:hover, #apaga:hover{
+    background-color:#dfdfdf ;
+    cursor: pointer;
+}
+
+#credito{
+    margin: 30px 0px;
+    font-size: 1.2em;
+    text-align: center;
+    color:#fff;
+}
+
+a{
+    text-decoration: none;
+    color: #10d2bb;
+}
